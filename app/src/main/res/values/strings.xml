@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Haberler</string>
+    <string name="err_msg_name">Lütfen adınızı giriniz</string>
+    <string name="err_msg_surname">Lütfen soyadınızı giriniz</string>
+    <string name="err_msg_email">Lütfen e-posta adresinizi kontrol ediniz</string>
+    <string name="err_msg_password">Lütfen şifrenizi kontrol ediniz</string>
+    <string name="cikisyap">Çıkış yap</string>
+    <string name="err_msg_match_password">Şifreleriniz uyuşmuyor</string>
+    <string name="news">%1$s...</string>
+
+</resources>

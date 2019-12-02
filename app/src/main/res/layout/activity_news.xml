@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/news_tvHaberBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Son dakika: Hüseyin Çapkın hakkında yakalama kararı verildi"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/news_newsImage"
+            android:foreground="?selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="195dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/news_tvKaynak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sabah"/>
+
+            <TextView
+                android:id="@+id/news_tvTarih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Cuma, 9 Haziran 2017 00:32:06"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/news_tvHaberMetni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İstanbul Cumhuriyet Başsavcılığı, FETÖ/PDY'nin mülkiye yapılanmasına yönelik soruşturma kapsamında tutuklandıktan sonra itiraz üzerine tahliye edilen eski İstanbul Emniyet Müdürü Hüseyin Çapkın ile eski Denizli Valisi Abdülkadir Demir hakkında yakalama kararı çıkarılmasını talep etti.\n\nFETÖ'nün Mülkiye yapılanmasına yönelik soruşturma tamamlandı. Aralarında eski İstanbul Valisi Hüseyin Avni Mutlu ve eski İstanbul Emniyet Müdürü Hüseyin Çapkın'ın da bulunduğu 13'ü tutuklu toplam 15 şüpheli hakkında 3'er kez ağırlaştırılmış müebbet hapis cezası istemiyle iddianame düzenlendi.\n\nİddianamede, tutuklandıktan sonra itiraz üzerine tahliye edilen eski İstanbul Emniyet Müdürü Hüseyin Çapkın ve eski Denizli Valisi Abdülkadir Demir hakkında yakalama kararı çıkarılması talep edildi."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+    </LinearLayout>
+</ScrollView>
